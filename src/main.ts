@@ -13,7 +13,7 @@ umi.use(keypairIdentity(keypair))
 const metadata = {
     name: "Solana Gold",
     symbol: "GOLDSOL",
-    uri: "https://raw.githubusercontent.com/solana-developers/program-examples/new-examples/tokens/tokens/.assets/spl-token.json",
+    uri: "https://raw.githubusercontent.com/baralmanish/solana-learning/main/tokens/.assets/spl-token.json",
 };
 
 const mint = generateSigner(umi);
